@@ -15,6 +15,13 @@ This project uses the OpenAI API to perform analysis and classification tasks th
 
 ## 🔑 Get an OpenAI API Key on GitHub
 
+Get this link: https://github.com/marketplace/models/azure-openai/gpt-4-1/playground
+
+Go to: Use this Model > Language: Python > SDK: OpenAI SDK > Get Developer Key
+
+Create a ".env" file and save the code with 
+``` OPENAI_API_KEY="your_api_key_here" ```
+
 > **Important**: Never share your API key publicly. Do not upload it to GitHub.
 
 ---
