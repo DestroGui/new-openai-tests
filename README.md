@@ -29,23 +29,28 @@ cd openai-requests-service
 ```
 
 ## 2. Create and Activate a Virtual Environment
+
 🔵 Windows:
+
 ```bash
 python -m venv venv
 venv\Scripts\activate
 ```
 🟣 macOS/Linux:
+
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
 
 ## 3. Install Required Packages
+
 ```bash
 pip install -r requirements.txt
 ```
 
 ## 4. Create a .env File
+
 Duplicate the .env file:
 
 ```bash
@@ -53,20 +58,30 @@ cp .env.example .env  # or just create a new .env manually
 ```
 
 Open .env and add your OpenAI API key:
+
 ```OPENAI_API_KEY=sk-your_api_key_here```
 
 📁 Project Structure
 
 ├── main.py
+
 ├── data_getter.py
+
 ├── token_analyzer.py
+
 ├── requirements.txt
+
 ├── .env
+
 ├── dados/
+
 │   └── MOCK_DATA.csv
+
 ├── venv/
 
+
 ✅ Run the Script
+
 ```
 python main.py
 ```
